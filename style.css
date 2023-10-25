@@ -56,3 +56,35 @@ button{
 button:hover{
     background-color: orangered;
 }
+@media only screen and (max-width: 800px) {
+    .container h1{
+        font-size: 30px;
+    }
+    .container textarea{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container h1{
+        font-size: 30px;
+    }
+    .container textarea{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container h1{
+        font-size: 25px;
+    }
+    .container textarea{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .container h1{
+        font-size: 20px;
+    }
+    .container textarea{
+        width: 280px;
+    }
+}
